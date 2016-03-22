@@ -6,6 +6,7 @@ void ofApp::setup(){
     
     ofSeedRandom();
     ofSetFrameRate(60);
+	ofHideCursor();
 //    ofSetVerticalSync(false);
 //    CGDisplayHideCursor(NULL);
 
