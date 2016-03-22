@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Canvas>
+	<Components>
+		<CanvasComponent type="4" name="EXPRESSION" position.x="2141" position.y="1104" size.x="240.451996" size.y="55" showInputPlus="1" showOutputPlus="1">
+			<InputNodes>
+				<Node globalID="16" index="0" lastVal="0" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+				<Node globalID="18" index="1" lastVal="0.199999988" pos.x="6" pos.y="37" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="17" index="0" lastVal="-0.199999988" pos.x="234.451996" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+			<TextInput pos.x="16" pos.y="23" minSize.x="118" minSize.y="14" bMultiline="1" text="out[0] = map(inn[0], 0, 1, -inn[1], inn[1]);"/>
+		</CanvasComponent>
+		<CanvasComponent type="1" name="Input" position.x="2013" position.y="1164" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="0.199999988">
+			<InputNodes>
+				<Node globalID="19" index="0" lastVal="0.199999988" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0.199999988"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="20" index="0" lastVal="0.199999988" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="4" name="EXPRESSION" position.x="2099" position.y="1249" size.x="240.451996" size.y="55" showInputPlus="1" showOutputPlus="1">
+			<InputNodes>
+				<Node globalID="21" index="0" lastVal="0.5" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+				<Node globalID="23" index="1" lastVal="0.00999999978" pos.x="6" pos.y="37" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="22" index="0" lastVal="0" pos.x="234.451996" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+			<TextInput pos.x="16" pos.y="23" minSize.x="118" minSize.y="14" bMultiline="1" text="out[0] = map(inn[0], 0, 1, -inn[1], inn[1]);"/>
+		</CanvasComponent>
+		<CanvasComponent type="1" name="NUMBER" position.x="1944" position.y="1110" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="0.149999991">
+			<InputNodes>
+				<Node globalID="26" index="0" lastVal="0.149999991" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0.149999991"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="27" index="0" lastVal="0.149999991" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="1" name="Input" position.x="1955" position.y="1283" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="0.00999999978">
+			<InputNodes>
+				<Node globalID="33" index="0" lastVal="0.00999999978" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0.00999999978"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="34" index="0" lastVal="0.00999999978" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="4" name="EXPRESSION" position.x="2147" position.y="1351" size.x="240.451996" size.y="55" showInputPlus="1" showOutputPlus="1">
+			<InputNodes>
+				<Node globalID="40" index="0" lastVal="0.94071126" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+				<Node globalID="42" index="1" lastVal="0.159999996" pos.x="6" pos.y="37" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="41" index="0" lastVal="-0.107294522" pos.x="234.451996" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+			<TextInput pos.x="16" pos.y="23" minSize.x="118" minSize.y="14" bMultiline="1" text="out[0] = map(inn[0], 0, 1, -inn[1], inn[1]);"/>
+		</CanvasComponent>
+		<CanvasComponent type="1" name="Input" position.x="1981" position.y="1448" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="0.159999996">
+			<InputNodes>
+				<Node globalID="45" index="0" lastVal="0.159999996" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0.159999996"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="46" index="0" lastVal="0.159999996" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="5" name="JAVASCRIPT" position.x="1763" position.y="1194" size.x="219" size.y="80" showInputPlus="0" showOutputPlus="0" jsScript="timeline.js" stateJson='{"values":[21,20,21,21,22,23,25,25,28,30,32,33,34,36,36,36,36,36,36,36,35,35,34,34,31,31,30,30,29,28,26,25,25,23,22,21,20,19,19,18,18,18,18,18,18,18,18,19,20,20,20,22,22,23,24,25,26,27,27,28,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,23,23,23,23,23,23,23,23,23,23,23,23,23]}'>
+			<InputNodes>
+				<Node globalID="49" index="0" lastVal="7.82999992" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="50" index="0" lastVal="0.5" pos.x="213" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="5" name="JAVASCRIPT" position.x="1673" position.y="1193" size.x="69" size.y="80" showInputPlus="0" showOutputPlus="0" jsScript="clock.js" stateJson="{}">
+			<InputNodes>
+				<Node globalID="51" index="0" lastVal="45" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+				<Node globalID="52" index="1" lastVal="0.870000005" pos.x="6" pos.y="37" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="53" index="0" lastVal="7.82999992" pos.x="63" pos.y="28" name="Output" bDisplayName="0"/>
+				<Node globalID="54" index="1" lastVal="0" pos.x="63" pos.y="37" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="1" name="Input" position.x="1552" position.y="1189" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="45">
+			<InputNodes>
+				<Node globalID="55" index="0" lastVal="45" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="45"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="56" index="0" lastVal="45" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="1" name="Input" position.x="1549" position.y="1243" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="0.870000005">
+			<InputNodes>
+				<Node globalID="57" index="0" lastVal="0.870000005" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0.870000005"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="58" index="0" lastVal="0.870000005" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="0" name="Performance" position.x="2530" position.y="1230" size.x="200" size.y="109" showInputPlus="0" showOutputPlus="0" listenPort="5316" bConnected="1" bEditing="0" programHost="localhost" programPort="6000">
+			<InputNodes>
+				<Node globalID="68" index="0" lastVal="0" pos.x="6" pos.y="28" name="Noise Level" bDisplayName="0" originalVal="0"/>
+				<Node globalID="69" index="1" lastVal="0" pos.x="6" pos.y="37" name="Noise Rate" bDisplayName="0" originalVal="0"/>
+				<Node globalID="70" index="2" lastVal="0" pos.x="6" pos.y="46" name="Noise Spatial Rate" bDisplayName="0" originalVal="0"/>
+				<Node globalID="71" index="3" lastVal="0" pos.x="6" pos.y="55" name="Random Level" bDisplayName="0" originalVal="0"/>
+				<Node globalID="72" index="4" lastVal="0" pos.x="6" pos.y="64" name="X Frequency" bDisplayName="0" originalVal="0"/>
+				<Node globalID="73" index="5" lastVal="0" pos.x="6" pos.y="73" name="X Amplitude" bDisplayName="0" originalVal="0"/>
+				<Node globalID="74" index="6" lastVal="0" pos.x="6" pos.y="82" name="angleOffset" bDisplayName="0" originalVal="0"/>
+				<Node globalID="75" index="7" lastVal="0" pos.x="6" pos.y="91" name="angleIndexOffset" bDisplayName="0" originalVal="0"/>
+				<Node globalID="76" index="8" lastVal="-0.107294522" pos.x="6" pos.y="100" name="angleIndexOffset2" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes/>
+			<TextInput pos.x="4" pos.y="23" minSize.x="192" minSize.y="14" bMultiline="0" text="localhost:6000"/>
+			<ProgramInputs>
+				<ProgramInput name="Noise Level" address="/ic" index="0" type="0" value="0"/>
+				<ProgramInput name="Noise Rate" address="/ic" index="1" type="0" value="0"/>
+				<ProgramInput name="Noise Spatial Rate" address="/ic" index="2" type="0" value="0"/>
+				<ProgramInput name="Random Level" address="/ic" index="3" type="0" value="0"/>
+				<ProgramInput name="X Frequency" address="/ic" index="4" type="0" value="0"/>
+				<ProgramInput name="X Amplitude" address="/ic" index="5" type="0" value="0"/>
+				<ProgramInput name="angleOffset" address="/ic" index="6" type="0" value="0"/>
+				<ProgramInput name="angleIndexOffset" address="/ic" index="7" type="0" value="0"/>
+				<ProgramInput name="angleIndexOffset2" address="/ic" index="8" type="0" value="-0.107294522"/>
+			</ProgramInputs>
+			<ProgramOutputs/>
+		</CanvasComponent>
+		<CanvasComponent type="5" name="JAVASCRIPT" position.x="1647" position.y="1378" size.x="219" size.y="80" showInputPlus="0" showOutputPlus="0" jsScript="timeline.js" stateJson='{"values":[45,44,43,38,35,32,31,28,28,27,26,24,23,22,21,20,19,18,18,17,17,16,15,14,13,13,12,11,10,10,9,8,8,7,6,6,6,6,5,5,4,4,4,4,4,4,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'>
+			<InputNodes>
+				<Node globalID="81" index="0" lastVal="14.4200001" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="82" index="0" lastVal="0.452800006" pos.x="213" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="1" name="Input" position.x="1428" position.y="1320" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="52">
+			<InputNodes>
+				<Node globalID="83" index="0" lastVal="52" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="52"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="84" index="0" lastVal="52" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="3" name="OSCILLATOR" position.x="1936" position.y="1369" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="0.94071126" time="5677518.7383595733">
+			<InputNodes>
+				<Node globalID="85" index="0" lastVal="0.452800006" pos.x="6" pos.y="28" name="Frequency" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="86" index="0" lastVal="0.94071126" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="1" name="Input" position.x="1411" position.y="1418" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="2.05999994">
+			<InputNodes>
+				<Node globalID="87" index="0" lastVal="2.05999994" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="2.05999994"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="88" index="0" lastVal="2.05999994" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="5" name="JAVASCRIPT" position.x="1540" position.y="1388" size.x="69" size.y="80" showInputPlus="0" showOutputPlus="0" jsScript="clock.js" stateJson="{}">
+			<InputNodes>
+				<Node globalID="89" index="0" lastVal="52" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+				<Node globalID="90" index="1" lastVal="2.05999994" pos.x="6" pos.y="37" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="91" index="0" lastVal="14.4200001" pos.x="63" pos.y="28" name="Output" bDisplayName="0"/>
+				<Node globalID="92" index="1" lastVal="0" pos.x="63" pos.y="37" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+	</Components>
+	<Wires>
+		<Wire inputID="18" outputID="20"/>
+		<Wire inputID="23" outputID="34"/>
+		<Wire inputID="42" outputID="46"/>
+		<Wire inputID="49" outputID="53"/>
+		<Wire inputID="51" outputID="56"/>
+		<Wire inputID="52" outputID="58"/>
+		<Wire inputID="21" outputID="50"/>
+		<Wire inputID="76" outputID="41"/>
+		<Wire inputID="85" outputID="82"/>
+		<Wire inputID="40" outputID="86"/>
+		<Wire inputID="90" outputID="88"/>
+		<Wire inputID="81" outputID="91"/>
+		<Wire inputID="89" outputID="84"/>
+	</Wires>
+</Canvas>
+

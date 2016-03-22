@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Canvas>
+	<Components>
+		<CanvasComponent id="11" type="6" name="OSC RECEIVER" position.x="1358" position.y="1640" size.x="100" size.y="73" showInputPlus="0" showOutputPlus="0" bConnected="1" listenPort="9001">
+			<InputNodes/>
+			<OutputNodes>
+				<Node id="11-o0" index="0" lastVal="546" pos.x="94" pos.y="28" name="/live/beat" bDisplayName="1"/>
+				<Node id="11-o1" index="1" lastVal="0" pos.x="94" pos.y="37" name="/live/play" bDisplayName="1"/>
+				<Node id="11-o2" index="2" lastVal="112.5" pos.x="94" pos.y="46" name="/live/tempo" bDisplayName="1"/>
+				<Node id="11-o3" index="3" lastVal="562" pos.x="94" pos.y="55" name="/live/name/track" bDisplayName="1"/>
+				<Node id="11-o4" index="4" lastVal="562" pos.x="94" pos.y="64" name="/live/name/trackblock" bDisplayName="1"/>
+			</OutputNodes>
+			<TextInput pos.x="5" pos.y="23" minSize.x="90" minSize.y="14" bMultiline="0" text="9001"/>
+		</CanvasComponent>
+		<CanvasComponent id="12" type="4" name="EXPRESSION" position.x="1481" position.y="1616" size.x="150" size.y="117.840004" showInputPlus="1" showOutputPlus="1">
+			<InputNodes>
+				<Node id="12-i0" index="0" lastVal="546" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="12-o0" index="0" lastVal="1" pos.x="144" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+			<TextInput pos.x="16" pos.y="23" minSize.x="118" minSize.y="14" bMultiline="1" text="if (inn[0] != time) {  out[0] = 1;} else {  out[0] = 0;}time = inn[0];"/>
+		</CanvasComponent>
+		<CanvasComponent id="20" type="2" name="SPLIT" position.x="1794" position.y="1698" size.x="30" size.y="55" showInputPlus="0" showOutputPlus="1">
+			<InputNodes>
+				<Node id="20-i0" index="0" lastVal="1" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="20-o0" index="0" lastVal="1" pos.x="24" pos.y="28" name="Output" bDisplayName="0"/>
+				<Node id="20-o1" index="1" lastVal="1" pos.x="24" pos.y="37" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent id="25" type="5" name="JAVASCRIPT" position.x="1702" position.y="1701" size.x="60" size.y="48" showInputPlus="0" showOutputPlus="0" jsScript="switch.js" stateJson='{"selectedInput":0}'>
+			<InputNodes>
+				<Node id="25-i0" index="0" lastVal="1" pos.x="6" pos.y="28" name="Source" bDisplayName="0" originalVal="0"/>
+				<Node id="25-i1" index="1" lastVal="0" pos.x="6" pos.y="37" name="Source" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="25-o0" index="0" lastVal="1" pos.x="54" pos.y="28" name="Target" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent id="47" type="5" name="JAVASCRIPT" position.x="2003" position.y="1493" size.x="120" size.y="128" showInputPlus="0" showOutputPlus="0" jsScript="pad.js" stateJson='{"pos":[52,88]}'>
+			<InputNodes/>
+			<OutputNodes>
+				<Node id="47-o0" index="0" lastVal="0.0399999991" pos.x="114" pos.y="28" name="x" bDisplayName="0"/>
+				<Node id="47-o1" index="1" lastVal="0.75999999" pos.x="114" pos.y="37" name="y" bDisplayName="0"/>
+				<Node id="47-o2" index="2" lastVal="0" pos.x="114" pos.y="46" name="click" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent id="49" type="4" name="EXPRESSION" position.x="2134" position.y="1540" size.x="150" size.y="46" showInputPlus="1" showOutputPlus="1">
+			<InputNodes>
+				<Node id="49-i0" index="0" lastVal="0.75999999" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="49-o0" index="0" lastVal="0.379999995" pos.x="144" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+			<TextInput pos.x="16" pos.y="23" minSize.x="118" minSize.y="14" bMultiline="1" text="out[0] = inn[0]/2;"/>
+		</CanvasComponent>
+		<CanvasComponent id="50" type="4" name="EXPRESSION" position.x="2134" position.y="1494" size.x="150" size.y="46" showInputPlus="1" showOutputPlus="1">
+			<InputNodes>
+				<Node id="50-i0" index="0" lastVal="0.0399999991" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="50-o0" index="0" lastVal="0.0199999996" pos.x="144" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+			<TextInput pos.x="16" pos.y="23" minSize.x="118" minSize.y="14" bMultiline="1" text="out[0] = inn[0]/2;"/>
+		</CanvasComponent>
+		<CanvasComponent id="53" type="1" name="Input" position.x="1884" position.y="1875" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="9.57999992">
+			<InputNodes>
+				<Node id="53-i0" index="0" lastVal="9.57999992" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="9.57999992"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="53-o0" index="0" lastVal="9.57999992" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent id="54" type="1" name="Spring coeff" position.x="2187" position.y="1774" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="0.610000014">
+			<InputNodes>
+				<Node id="54-i0" index="0" lastVal="0.610000014" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0.610000014"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="54-o0" index="0" lastVal="0.610000014" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent id="56" type="4" name="EXPRESSION" position.x="2018" position.y="1873" size.x="150" size.y="46" showInputPlus="1" showOutputPlus="1">
+			<InputNodes>
+				<Node id="56-i0" index="0" lastVal="9.57999992" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="56-o0" index="0" lastVal="0.958000004" pos.x="144" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+			<TextInput pos.x="16" pos.y="23" minSize.x="118" minSize.y="14" bMultiline="1" text="out[0] = inn[0]/10;"/>
+		</CanvasComponent>
+		<CanvasComponent id="57" type="1" name="Particle friction coeff" position.x="2186" position.y="1879" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="0.959999979">
+			<InputNodes>
+				<Node id="57-i0" index="0" lastVal="0.958000004" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="3.08999991"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="57-o0" index="0" lastVal="0.958000004" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent id="58" type="1" name="Input" position.x="2014" position.y="1726" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="0.049999997">
+			<InputNodes>
+				<Node id="58-i0" index="0" lastVal="0.049999997" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0.049999997"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="58-o0" index="0" lastVal="0.049999997" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent id="60" type="4" name="EXPRESSION" position.x="2137" position.y="1723" size.x="150" size.y="46" showInputPlus="1" showOutputPlus="1">
+			<InputNodes>
+				<Node id="60-i0" index="0" lastVal="0.049999997" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="60-o0" index="0" lastVal="0.00499999989" pos.x="144" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+			<TextInput pos.x="16" pos.y="23" minSize.x="118" minSize.y="14" bMultiline="1" text="out[0] = inn[0]/10;"/>
+		</CanvasComponent>
+		<CanvasComponent id="63" type="1" name="Particle max speed" position.x="2191" position.y="1829" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="50">
+			<InputNodes>
+				<Node id="63-i0" index="0" lastVal="50" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="50"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="63-o0" index="0" lastVal="50" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent id="65" type="5" name="JAVASCRIPT" position.x="1574" position.y="1742" size.x="57.2639999" size.y="58" showInputPlus="0" showOutputPlus="0" jsScript="button.js" stateJson="{}">
+			<InputNodes/>
+			<OutputNodes>
+				<Node id="65-o0" index="0" lastVal="0" pos.x="51.2639999" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent id="66" type="5" name="JAVASCRIPT" position.x="1883" position.y="1765" size.x="60" size.y="58" showInputPlus="0" showOutputPlus="0" jsScript="balloon.js" stateJson="{}">
+			<InputNodes>
+				<Node id="66-i0" index="0" lastVal="0" pos.x="6" pos.y="28" name="Trigger" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="66-o0" index="0" lastVal="0" pos.x="54" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent id="67" type="4" name="EXPRESSION" position.x="2144" position.y="1641" size.x="150" size.y="55" showInputPlus="1" showOutputPlus="1">
+			<InputNodes>
+				<Node id="67-i0" index="0" lastVal="-3.27999997" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+				<Node id="67-i1" index="1" lastVal="0" pos.x="6" pos.y="37" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="67-o0" index="0" lastVal="-0" pos.x="144" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+			<TextInput pos.x="16" pos.y="23" minSize.x="118" minSize.y="14" bMultiline="1" text="out[0] = inn[0]*inn[1];"/>
+		</CanvasComponent>
+		<CanvasComponent id="68" type="1" name="Input" position.x="1895" position.y="1645" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="-3.27999997">
+			<InputNodes>
+				<Node id="68-i0" index="0" lastVal="-3.27999997" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="-3.27999997"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="68-o0" index="0" lastVal="-3.27999997" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent id="69" type="0" name="Performance" position.x="2433" position.y="1443" size.x="200" size.y="271" showInputPlus="0" showOutputPlus="0" listenPort="5764" bConnected="1" bEditing="0" programHost="localhost" programPort="6000">
+			<InputNodes>
+				<Node id="69-i0" index="0" lastVal="0" pos.x="6" pos.y="28" name="Noise Level" bDisplayName="0" originalVal="0"/>
+				<Node id="69-i1" index="1" lastVal="0" pos.x="6" pos.y="37" name="Noise Rate" bDisplayName="0" originalVal="0"/>
+				<Node id="69-i2" index="2" lastVal="0" pos.x="6" pos.y="46" name="Noise Spatial Rate" bDisplayName="0" originalVal="0"/>
+				<Node id="69-i3" index="3" lastVal="0" pos.x="6" pos.y="55" name="Random Level" bDisplayName="0" originalVal="0"/>
+				<Node id="69-i4" index="4" lastVal="0" pos.x="6" pos.y="64" name="X Frequency" bDisplayName="0" originalVal="0"/>
+				<Node id="69-i5" index="5" lastVal="0" pos.x="6" pos.y="73" name="X Amplitude" bDisplayName="0" originalVal="0"/>
+				<Node id="69-i6" index="6" lastVal="0" pos.x="6" pos.y="82" name="Angle Offset" bDisplayName="0" originalVal="0"/>
+				<Node id="69-i7" index="7" lastVal="0" pos.x="6" pos.y="91" name="Angle Offset Per Index" bDisplayName="0" originalVal="0"/>
+				<Node id="69-i8" index="8" lastVal="1" pos.x="6" pos.y="100" name="lengthScale" bDisplayName="0" originalVal="1"/>
+				<Node id="69-i9" index="9" lastVal="1" pos.x="6" pos.y="109" name="lengthIndexScale" bDisplayName="0" originalVal="1"/>
+				<Node id="69-i10" index="10" lastVal="50" pos.x="6" pos.y="118" name="Repeat Times" bDisplayName="0" originalVal="50"/>
+				<Node id="69-i11" index="11" lastVal="1" pos.x="6" pos.y="127" name="Repeat rotation" bDisplayName="0" originalVal="1"/>
+				<Node id="69-i12" index="12" lastVal="1" pos.x="6" pos.y="136" name="Repeat trans X" bDisplayName="0" originalVal="1"/>
+				<Node id="69-i13" index="13" lastVal="1" pos.x="6" pos.y="145" name="Repeat trans Y" bDisplayName="0" originalVal="1"/>
+				<Node id="69-i14" index="14" lastVal="1" pos.x="6" pos.y="154" name="Repeat scale X" bDisplayName="0" originalVal="1"/>
+				<Node id="69-i15" index="15" lastVal="1" pos.x="6" pos.y="163" name="Repeat scale Y" bDisplayName="0" originalVal="1"/>
+				<Node id="69-i16" index="16" lastVal="0.0199999996" pos.x="6" pos.y="172" name="Spring gravity.x" bDisplayName="0" originalVal="0"/>
+				<Node id="69-i17" index="17" lastVal="0.379999995" pos.x="6" pos.y="181" name="Spring gravity.y" bDisplayName="0" originalVal="0.400000006"/>
+				<Node id="69-i18" index="18" lastVal="0" pos.x="6" pos.y="190" name="Spring temporal force.x" bDisplayName="0" originalVal="0"/>
+				<Node id="69-i19" index="19" lastVal="0" pos.x="6" pos.y="199" name="Spring temporal force.y" bDisplayName="0" originalVal="0"/>
+				<Node id="69-i20" index="20" lastVal="0.00499999989" pos.x="6" pos.y="208" name="Sprint rest length factor" bDisplayName="0" originalVal="0.100000001"/>
+				<Node id="69-i21" index="21" lastVal="1" pos.x="6" pos.y="217" name="Spring force factor" bDisplayName="0" originalVal="1"/>
+				<Node id="69-i22" index="22" lastVal="0.610000014" pos.x="6" pos.y="226" name="Spring coeff" bDisplayName="0" originalVal="15"/>
+				<Node id="69-i23" index="23" lastVal="50" pos.x="6" pos.y="235" name="Particle max speed" bDisplayName="0" originalVal="0.99000001"/>
+				<Node id="69-i24" index="24" lastVal="0.958000004" pos.x="6" pos.y="244" name="Particle friction coeff" bDisplayName="0" originalVal="0.99000001"/>
+				<Node id="69-i25" index="25" lastVal="0" pos.x="6" pos.y="253" name="Particle temporal velocity.x" bDisplayName="0" originalVal="0"/>
+				<Node id="69-i26" index="26" lastVal="-5" pos.x="6" pos.y="262" name="Particle temporal velocity.y" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes/>
+			<TextInput pos.x="4" pos.y="23" minSize.x="192" minSize.y="14" bMultiline="0" text="localhost:6000"/>
+			<ProgramInputs>
+				<ProgramInput name="Noise Level" address="/ic" index="0" type="0" value="0"/>
+				<ProgramInput name="Noise Rate" address="/ic" index="1" type="0" value="0"/>
+				<ProgramInput name="Noise Spatial Rate" address="/ic" index="2" type="0" value="0"/>
+				<ProgramInput name="Random Level" address="/ic" index="3" type="0" value="0"/>
+				<ProgramInput name="X Frequency" address="/ic" index="4" type="0" value="0"/>
+				<ProgramInput name="X Amplitude" address="/ic" index="5" type="0" value="0"/>
+				<ProgramInput name="Angle Offset" address="/ic" index="6" type="0" value="0"/>
+				<ProgramInput name="Angle Offset Per Index" address="/ic" index="7" type="0" value="0"/>
+				<ProgramInput name="lengthScale" address="/ic" index="8" type="0" value="1"/>
+				<ProgramInput name="lengthIndexScale" address="/ic" index="9" type="0" value="1"/>
+				<ProgramInput name="Repeat Times" address="/ic" index="10" type="0" value="50"/>
+				<ProgramInput name="Repeat rotation" address="/ic" index="11" type="0" value="1"/>
+				<ProgramInput name="Repeat trans X" address="/ic" index="12" type="0" value="1"/>
+				<ProgramInput name="Repeat trans Y" address="/ic" index="13" type="0" value="1"/>
+				<ProgramInput name="Repeat scale X" address="/ic" index="14" type="0" value="1"/>
+				<ProgramInput name="Repeat scale Y" address="/ic" index="15" type="0" value="1"/>
+				<ProgramInput name="Spring gravity.x" address="/ic" index="16" type="0" value="0.0199999996"/>
+				<ProgramInput name="Spring gravity.y" address="/ic" index="17" type="0" value="0.379999995"/>
+				<ProgramInput name="Spring temporal force.x" address="/ic" index="18" type="0" value="0"/>
+				<ProgramInput name="Spring temporal force.y" address="/ic" index="19" type="0" value="0"/>
+				<ProgramInput name="Sprint rest length factor" address="/ic" index="20" type="0" value="0.00499999989"/>
+				<ProgramInput name="Spring force factor" address="/ic" index="21" type="0" value="1"/>
+				<ProgramInput name="Spring coeff" address="/ic" index="22" type="0" value="0.610000014"/>
+				<ProgramInput name="Particle max speed" address="/ic" index="23" type="0" value="50"/>
+				<ProgramInput name="Particle friction coeff" address="/ic" index="24" type="0" value="0.958000004"/>
+				<ProgramInput name="Particle temporal velocity.x" address="/ic" index="25" type="0" value="0"/>
+				<ProgramInput name="Particle temporal velocity.y" address="/ic" index="26" type="0" value="-5"/>
+			</ProgramInputs>
+			<ProgramOutputs/>
+		</CanvasComponent>
+		<CanvasComponent id="70" type="5" name="JAVASCRIPT" position.x="1575" position.y="1825" size.x="60" size.y="48" showInputPlus="0" showOutputPlus="0" jsScript="rhythm.js" stateJson="{}">
+			<InputNodes/>
+			<OutputNodes>
+				<Node id="70-o0" index="0" lastVal="1" pos.x="54" pos.y="28" name="Beat" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent id="71" type="4" name="EXPRESSION" position.x="1854" position.y="1700" size.x="150" size.y="46" showInputPlus="1" showOutputPlus="1">
+			<InputNodes>
+				<Node id="71-i0" index="0" lastVal="1" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node id="71-o0" index="0" lastVal="-5" pos.x="144" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+			<TextInput pos.x="16" pos.y="23" minSize.x="118" minSize.y="14" bMultiline="1" text="out[0] = inn[0]*-5;"/>
+		</CanvasComponent>
+	</Components>
+	<Wires>
+		<Wire inputID="20-i0" outputID="25-o0"/>
+		<Wire inputID="12-i0" outputID="11-o0"/>
+		<Wire inputID="49-i0" outputID="47-o1"/>
+		<Wire inputID="50-i0" outputID="47-o0"/>
+		<Wire inputID="56-i0" outputID="53-o0"/>
+		<Wire inputID="57-i0" outputID="56-o0"/>
+		<Wire inputID="60-i0" outputID="58-o0"/>
+		<Wire inputID="67-i0" outputID="68-o0"/>
+		<Wire inputID="69-i16" outputID="50-o0"/>
+		<Wire inputID="69-i17" outputID="49-o0"/>
+		<Wire inputID="69-i20" outputID="60-o0"/>
+		<Wire inputID="69-i23" outputID="63-o0"/>
+		<Wire inputID="69-i24" outputID="57-o0"/>
+		<Wire inputID="69-i22" outputID="54-o0"/>
+		<Wire inputID="25-i0" outputID="70-o0"/>
+		<Wire inputID="25-i1" outputID="65-o0"/>
+		<Wire inputID="71-i0" outputID="20-o0"/>
+		<Wire inputID="69-i26" outputID="71-o0"/>
+	</Wires>
+</Canvas>
+

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Canvas>
+	<Components>
+		<CanvasComponent type="1" name="Noise Level" position.x="2214" position.y="1091" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="16.9599991">
+			<InputNodes>
+				<Node globalID="5" index="0" lastVal="16.9599991" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="16.9599991"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="6" index="0" lastVal="16.9599991" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="4" name="EXPRESSION" position.x="2160" position.y="1243" size.x="150" size.y="55" showInputPlus="1" showOutputPlus="1">
+			<InputNodes>
+				<Node globalID="13" index="0" lastVal="0" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+				<Node globalID="27" index="1" lastVal="25" pos.x="6" pos.y="37" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="14" index="0" lastVal="0" pos.x="144" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+			<TextInput pos.x="16" pos.y="23" minSize.x="118" minSize.y="14" bMultiline="1" text="out[0] = inn[0]*inn[1];"/>
+		</CanvasComponent>
+		<CanvasComponent type="5" name="JAVASCRIPT" position.x="2097" position.y="1327" size.x="219" size.y="80" showInputPlus="0" showOutputPlus="0" jsScript="timeline.js" stateJson='{"values":[19,21,27,30,35,38,40,50,50,46,43,37,32,28,27,25,25,23,22,20,18,17,16,15,13,12,11,11,11,9,9,8,8,7,6,5,5,4,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'>
+			<InputNodes>
+				<Node globalID="15" index="0" lastVal="46" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="16" index="0" lastVal="0" pos.x="213" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="5" name="JAVASCRIPT" position.x="1957" position.y="1334" size.x="69" size.y="80" showInputPlus="0" showOutputPlus="0" jsScript="clock.js" stateJson="{}">
+			<InputNodes>
+				<Node globalID="17" index="0" lastVal="100" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0"/>
+				<Node globalID="18" index="1" lastVal="2" pos.x="6" pos.y="37" name="Input" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="19" index="0" lastVal="46" pos.x="63" pos.y="28" name="Output" bDisplayName="0"/>
+				<Node globalID="20" index="1" lastVal="0" pos.x="63" pos.y="37" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="1" name="Input" position.x="1806" position.y="1327" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="100">
+			<InputNodes>
+				<Node globalID="21" index="0" lastVal="100" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="100"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="22" index="0" lastVal="100" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="1" name="Input" position.x="1802" position.y="1394" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="2">
+			<InputNodes>
+				<Node globalID="23" index="0" lastVal="2" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="2"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="24" index="0" lastVal="2" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="1" name="Input" position.x="1806" position.y="1271" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="25">
+			<InputNodes>
+				<Node globalID="25" index="0" lastVal="25" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="25"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="26" index="0" lastVal="25" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="0" name="Performance" position.x="2381" position.y="1130" size.x="200" size.y="64" showInputPlus="0" showOutputPlus="0" listenPort="5764" bConnected="1" bEditing="0" programHost="localhost" programPort="6000">
+			<InputNodes>
+				<Node globalID="28" index="0" lastVal="16.9599991" pos.x="6" pos.y="28" name="Noise Level" bDisplayName="0" originalVal="0"/>
+				<Node globalID="29" index="1" lastVal="0.289999992" pos.x="6" pos.y="37" name="Noise Rate" bDisplayName="0" originalVal="0"/>
+				<Node globalID="30" index="2" lastVal="0.159999996" pos.x="6" pos.y="46" name="Noise Spatial Rate" bDisplayName="0" originalVal="0"/>
+				<Node globalID="31" index="3" lastVal="0" pos.x="6" pos.y="55" name="Random Level" bDisplayName="0" originalVal="0"/>
+			</InputNodes>
+			<OutputNodes/>
+			<TextInput pos.x="4" pos.y="23" minSize.x="192" minSize.y="14" bMultiline="0" text="localhost:6000"/>
+			<ProgramInputs>
+				<ProgramInput name="Noise Level" address="/ic" index="0" type="0" value="16.9599991"/>
+				<ProgramInput name="Noise Rate" address="/ic" index="1" type="0" value="0.289999992"/>
+				<ProgramInput name="Noise Spatial Rate" address="/ic" index="2" type="0" value="0.159999996"/>
+				<ProgramInput name="Random Level" address="/ic" index="3" type="0" value="0"/>
+			</ProgramInputs>
+			<ProgramOutputs/>
+		</CanvasComponent>
+		<CanvasComponent type="1" name="Noise Rate" position.x="2225" position.y="1142" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="0.289999992">
+			<InputNodes>
+				<Node globalID="32" index="0" lastVal="0.289999992" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0.289999992"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="33" index="0" lastVal="0.289999992" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+		<CanvasComponent type="1" name="Noise Spatial Rate" position.x="2214" position.y="1192" size.x="100" size.y="40" showInputPlus="0" showOutputPlus="0" value="0.159999996">
+			<InputNodes>
+				<Node globalID="34" index="0" lastVal="0.159999996" pos.x="6" pos.y="28" name="Input" bDisplayName="0" originalVal="0.159999996"/>
+			</InputNodes>
+			<OutputNodes>
+				<Node globalID="35" index="0" lastVal="0.159999996" pos.x="94" pos.y="28" name="Output" bDisplayName="0"/>
+			</OutputNodes>
+		</CanvasComponent>
+	</Components>
+	<Wires>
+		<Wire inputID="18" outputID="24"/>
+		<Wire inputID="13" outputID="16"/>
+		<Wire inputID="27" outputID="26"/>
+		<Wire inputID="17" outputID="22"/>
+		<Wire inputID="15" outputID="19"/>
+		<Wire inputID="28" outputID="6"/>
+		<Wire inputID="29" outputID="33"/>
+		<Wire inputID="30" outputID="35"/>
+		<Wire inputID="31" outputID="14"/>
+	</Wires>
+</Canvas>
+

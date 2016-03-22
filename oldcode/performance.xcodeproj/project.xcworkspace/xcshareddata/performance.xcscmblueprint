@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "93BE745C29532035F16BA69A4B98E00661EE9223",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "93BE745C29532035F16BA69A4B98E00661EE9223" : 0,
+    "2FEB97CC02960460967D550E6A599F1372CC8347" : 0,
+    "89336E114205892DA579B336E16539B734ACEC4B" : 0,
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "37348005-0EA2-4C45-8A42-3CBD0B47DAB9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "93BE745C29532035F16BA69A4B98E00661EE9223" : "thesis-performance\/",
+    "2FEB97CC02960460967D550E6A599F1372CC8347" : "..\/..",
+    "89336E114205892DA579B336E16539B734ACEC4B" : "..\/..\/..\/..\/..\/tools\/of\/of_v0.8.0_osx_release\/addons\/ofxControlease",
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613" : "..\/..\/..\/..\/..\/tools\/of\/of_v0.8.0_osx_release\/addons\/ofxSyphon"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "performance",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "performance.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/galsasson\/controlease.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2FEB97CC02960460967D550E6A599F1372CC8347"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/galsasson\/ofxControlease.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "89336E114205892DA579B336E16539B734ACEC4B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/galsasson\/thesis-performance.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "93BE745C29532035F16BA69A4B98E00661EE9223"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/astellato\/ofxSyphon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4CCB893AFADB97238A965FD2F28717F1CAAE613"
+    }
+  ]
+}
