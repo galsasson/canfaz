@@ -76,10 +76,12 @@ void ofApp::setup(){
     bDisplayToolbox = true;
     
     bUseSyphon = false;
+#ifdef USE_SYPHON
     if (bUseSyphon) {
         syphonFbo.allocate(ofGetWindowWidth(), ofGetWindowHeight());
         mainOutputSyphonServer.setName("Sketch Performance");
     }
+#endif
 }
 
 //--------------------------------------------------------------
@@ -90,10 +92,12 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw()
 {
+#ifdef USE_SYPHON
     if (bUseSyphon) {
         syphonFbo.begin();
     }
-    
+#endif
+
     canvas.draw();
     
     if (Params::colorMode == 0) {
@@ -109,12 +113,13 @@ void ofApp::draw()
     
     ofDisableBlendMode();
 
+#ifdef USE_SYPHON
     if (bUseSyphon) {
         syphonFbo.end();
         mainOutputSyphonServer.publishTexture(&syphonFbo.getTextureReference());
         syphonFbo.draw(0, 0);
     }
-
+#endif
 
 //    stringstream ss;
 //    ss << ofGetFrameRate();

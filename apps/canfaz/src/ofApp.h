@@ -4,12 +4,14 @@
 
 #include "ofMain.h"
 #include "ofxControlease.h"
-#include "ofxSyphon.h"
-
 #include "Params.h"
 #include "Canvas.h"
 #include "FlowField.h"
 #include "ToolBox.h"
+
+#ifdef USE_SYPHON
+#include "ofxSyphon.h"
+#endif
 
 class ofApp : public ofBaseApp{
 
@@ -37,9 +39,10 @@ class ofApp : public ofBaseApp{
     bool bDisplayToolbox;
     
     int counter;
-    
+
+	bool bUseSyphon;
+#ifdef USE_SYPHON
     ofFbo syphonFbo;
     ofxSyphonServer mainOutputSyphonServer;
-    bool bUseSyphon;
-
+#endif
 };

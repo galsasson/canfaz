@@ -401,7 +401,7 @@ void Canvas::keyPressed(int key)
     if (key == 'r') {
         releaseAllParticles();
     }
-    else if (key == 'f') {
+    else if (key == ' ') {
         bShowFlowfield = !bShowFlowfield;
     }
     else if (key == 'c') {
@@ -435,6 +435,13 @@ void Canvas::keyPressed(int key)
             Params::randomParticleColors = 8;
         }
     }
+	else if (key == 'f') {
+		bool currentState = (ofGetScreenSize() == ofGetWindowSize());
+		ofSetFullscreen(!currentState);
+		if (currentState) {
+			ofSetWindowShape(800, 600);
+		}
+	}
 }
 
 void Canvas::releaseAllParticles()
