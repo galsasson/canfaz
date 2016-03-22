@@ -7,8 +7,8 @@ void ofApp::setup(){
     ofSeedRandom();
     ofSetFrameRate(60);
 //    ofSetVerticalSync(false);
-    CGDisplayHideCursor(NULL);
-    
+//    CGDisplayHideCursor(NULL);
+
 //    ofEnableSmoothing();
     ofSetBackgroundAuto(false);
     ofEnableAlphaBlending();
