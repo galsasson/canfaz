@@ -1,3 +1,15 @@
 [submodule "openFrameworks"]
 	path = openFrameworks
 	url = git@github.com:galsasson/openFrameworks.git
+[submodule "externalAddons/ofxControlease"]
+	path = externalAddons/ofxControlease
+	url = git@github.com:galsasson/ofxControlease.git
+[submodule "externalAddons/ofxInterface"]
+	path = externalAddons/ofxInterface
+	url = git@github.com:galsasson/ofxInterface.git
+[submodule "externalAddons/ofxNanoVG"]
+	path = externalAddons/ofxNanoVG
+	url = git@github.com:galsasson/ofxNanoVG.git
+[submodule "externalAddons/ofxSyphon"]
+	path = externalAddons/ofxSyphon
+	url = git@github.com:local-projects/ofxSyphon.git
