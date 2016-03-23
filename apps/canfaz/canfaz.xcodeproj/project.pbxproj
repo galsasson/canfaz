@@ -10,7 +10,6 @@
 		0017B7F72586AFB59D219298 /* ParticleStroke.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F029ED558BD32C80CC3486AA /* ParticleStroke.cpp */; };
 		1110B7683CF26BDDECD16873 /* ofxOscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2807F71B621C4CA89A339B6F /* ofxOscSender.cpp */; };
 		1D7223480EF577F7398744F8 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08E944637C72FC1B33CE6773 /* NetworkingUtils.cpp */; };
-		29D734F0DDECC8C5978185D7 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00A1BFCBB38848AD0E0C8539 /* testApp.cpp */; };
 		2A8CAAAD1CA1B1B300C58B42 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CAAA41CA1B1B300C58B42 /* README.md */; };
 		2A8CAAAE1CA1B1B300C58B42 /* ofxControlease.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CAAA71CA1B1B300C58B42 /* ofxControlease.cpp */; };
 		2A8CAAAF1CA1B1B300C58B42 /* ofxControleaseInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CAAA91CA1B1B300C58B42 /* ofxControleaseInput.cpp */; };
@@ -85,7 +84,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		00A1BFCBB38848AD0E0C8539 /* testApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = testApp.cpp; path = src/testApp.cpp; sourceTree = SOURCE_ROOT; };
 		08E944637C72FC1B33CE6773 /* NetworkingUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = NetworkingUtils.cpp; path = ../../openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix/NetworkingUtils.cpp; sourceTree = SOURCE_ROOT; };
 		0A6DD1316D09DE41400BB4F2 /* ToolBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ToolBox.cpp; path = src/ToolBox.cpp; sourceTree = SOURCE_ROOT; };
 		0D6060785EAAA84CA2593E48 /* RainDrop.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = RainDrop.cpp; path = src/RainDrop.cpp; sourceTree = SOURCE_ROOT; };
@@ -119,7 +117,6 @@
 		2A8CAADF1CA1B28A00C58B42 /* ofxSyphonServerDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxSyphonServerDirectory.h; sourceTree = "<group>"; };
 		2A8CAAE01CA1B28A00C58B42 /* ofxSyphonServerDirectory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxSyphonServerDirectory.mm; sourceTree = "<group>"; };
 		2B786FD66F72466610045E73 /* OscException.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscException.h; path = ../../openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscException.h; sourceTree = SOURCE_ROOT; };
-		2D129AB0F7D46B8DFCEADEDB /* testApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = testApp.h; path = src/testApp.h; sourceTree = SOURCE_ROOT; };
 		2DAAE599C470E8068DE1AD49 /* PacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = PacketListener.h; path = ../../openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h; sourceTree = SOURCE_ROOT; };
 		3B45FAE715B1A28E1E319FC4 /* RainDrop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = RainDrop.h; path = src/RainDrop.h; sourceTree = SOURCE_ROOT; };
 		3E1F823D62600108C578353D /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscPrintReceivedElements.h; path = ../../openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h; sourceTree = SOURCE_ROOT; };
@@ -437,8 +434,6 @@
 				5DD7CC4569B05C5F4B22BAB0 /* SpringStroke.h */,
 				1841A62140611CD981D2173F /* Stroke.cpp */,
 				438FFCEEEB8159243291B021 /* Stroke.h */,
-				00A1BFCBB38848AD0E0C8539 /* testApp.cpp */,
-				2D129AB0F7D46B8DFCEADEDB /* testApp.h */,
 				0A6DD1316D09DE41400BB4F2 /* ToolBox.cpp */,
 				D994DE460DBB554593993952 /* ToolBox.h */,
 				1773FB2611396B274E1B18EA /* TurtleStep.cpp */,
@@ -594,7 +589,6 @@
 				2A8CAAAD1CA1B1B300C58B42 /* README.md in Sources */,
 				E040C9C296D8A04F2C853CD0 /* Stroke.cpp in Sources */,
 				2A8CAAAF1CA1B1B300C58B42 /* ofxControleaseInput.cpp in Sources */,
-				29D734F0DDECC8C5978185D7 /* testApp.cpp in Sources */,
 				4A94D4E2CC6B524D968F3E07 /* ToolBox.cpp in Sources */,
 				AFCFD6BCF20E18298EDF610C /* TurtleStep.cpp in Sources */,
 				437E58F26DEC2F94ADE52B4F /* TurtleStroke.cpp in Sources */,

@@ -7,6 +7,7 @@ void ofApp::setup(){
     ofSeedRandom();
     ofSetFrameRate(60);
 	ofHideCursor();
+	ofSetWindowTitle("Canfaz");
 //    ofSetVerticalSync(false);
 //    CGDisplayHideCursor(NULL);
 
@@ -129,8 +130,8 @@ void ofApp::draw()
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-    cout << "key pressed: "<<key<<endl;
-    
+//    cout << "key pressed: "<<key<<endl;
+
     if (key >= '1' &&
         key <= '7') {
         toolBox.currentTool = key - '1';
