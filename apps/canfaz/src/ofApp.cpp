@@ -68,12 +68,12 @@ void ofApp::setup(){
     control.addInput("Max Initial Vel", &Params::maxInitialForce);
     control.addInput("Gravity", &Params::gravity);
     
-    
-    canvas.setup(ofGetWindowWidth(), ofGetWindowHeight());
+	ofSetFullscreen(true);
+	cout << "Window size = " << ofGetWindowWidth() << "x" << ofGetWindowHeight() << endl;
+	canvas.setup(ofGetWindowWidth(), ofGetWindowHeight());
     
     toolBox.setup(ofVec2f(0, 0));
     
-    cout<<"Window size = "<<ofGetWindowWidth()<<"x"<<ofGetWindowHeight()<<endl;
     counter = 0;
     bDisplayToolbox = true;
     
