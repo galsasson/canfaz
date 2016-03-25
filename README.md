@@ -7,8 +7,8 @@ Useful keys:
 'h' - Toggle brush selection menu
 'a' - Toggle light/dark
 ' ' - Toggle display force field
-'r' - Drop particles
-'d' - Drop strokes
+'r' - Drop (release) particles
+'d' - Drop (release) strokes
 'e' - Toggle colored particles
 'z' - Undo last stroke
 
