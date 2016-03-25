@@ -7,7 +7,7 @@ void ofApp::setup(){
     ofSeedRandom();
     ofSetFrameRate(60);
 	ofHideCursor();
-	ofSetWindowTitle("Canfaz");
+	ofSetWindowTitle("dynamicBrush");
 //    ofSetVerticalSync(false);
 //    CGDisplayHideCursor(NULL);
 
