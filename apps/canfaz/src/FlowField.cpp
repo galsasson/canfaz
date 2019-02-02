@@ -198,7 +198,7 @@ void FlowField::drawArrow(ofVec2f s, ofVec2f t)
 {
     float length = t.length();
     if (length == 0) {
-        ofLine(s, s+ofVec2f(1, 0));
+        ofDrawLine(s, s+ofVec2f(1, 0));
         return;
     }
     

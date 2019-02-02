@@ -85,20 +85,20 @@ void SmoothLine::rebuildMesh()
     {
         float aMass = points[i]->mass;
         float bMass = points[i+1]->mass;
-        ofVec2f a = *points[i] + ofVec2f(ofRandom(-Params::lineNoise.x, Params::lineNoise.x), ofRandom(-Params::lineNoise.y, Params::lineNoise.y));
-        ofVec2f b = *points[i+1] + ofVec2f(ofRandom(-Params::lineNoise.x, Params::lineNoise.x), ofRandom(-Params::lineNoise.y, Params::lineNoise.y));
+        ofVec3f a = *points[i] + ofVec2f(ofRandom(-Params::lineNoise.x, Params::lineNoise.x), ofRandom(-Params::lineNoise.y, Params::lineNoise.y));
+        ofVec3f b = *points[i+1] + ofVec2f(ofRandom(-Params::lineNoise.x, Params::lineNoise.x), ofRandom(-Params::lineNoise.y, Params::lineNoise.y));
         
-		ofVec2f ea = (ofVec2f)(b - a).normalize() * aMass;
-        ofVec2f eb = (ofVec2f)(b - a).normalize() * bMass;
+		ofVec3f ea = (ofVec2f)(b - a).normalize() * aMass;
+        ofVec3f eb = (ofVec2f)(b - a).normalize() * bMass;
         
-		ofVec2f NA = ofVec2f(-ea.y, ea.x);
-		ofVec2f NB = ofVec2f(-eb.y, eb.x);
-		ofVec2f SA = -NA;
-		ofVec2f SB = -NB;
-		ofVec2f NE = NB + eb;
-		ofVec2f NW = NA - ea;
-        ofVec2f SW = -NA - ea;
-        ofVec2f SE = -NB + eb;
+		ofVec3f NA = ofVec2f(-ea.y, ea.x);
+		ofVec3f NB = ofVec2f(-eb.y, eb.x);
+		ofVec3f SA = -NA;
+		ofVec3f SB = -NB;
+		ofVec3f NE = NB + eb;
+		ofVec3f NW = NA - ea;
+        ofVec3f SW = -NA - ea;
+        ofVec3f SE = -NB + eb;
         
         mesh.addVertex(a + SW);
         mesh.addVertex(a + NW);

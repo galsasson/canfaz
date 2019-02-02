@@ -174,12 +174,12 @@ void Canvas::draw()
     ofSetColor(ResourceManager::getInstance().getStrokeColor());
     ofNoFill();
     if (strokeType == 4) {
-        ofLine(ofGetMouseX()-7, ofGetMouseY()-7, ofGetMouseX()+7, ofGetMouseY()+7);
-        ofLine(ofGetMouseX()+7, ofGetMouseY()-7, ofGetMouseX()-7, ofGetMouseY()+7);
-        ofLine(bladePrev, blade);
+        ofDrawLine(ofGetMouseX()-7, ofGetMouseY()-7, ofGetMouseX()+7, ofGetMouseY()+7);
+        ofDrawLine(ofGetMouseX()+7, ofGetMouseY()-7, ofGetMouseX()-7, ofGetMouseY()+7);
+        ofDrawLine(bladePrev, blade);
     }
     else {
-        ofEllipse(ofGetMouseX(), ofGetMouseY(), 15, 15);
+        ofDrawEllipse(ofGetMouseX(), ofGetMouseY(), 15, 15);
     }
     
     ofDisableBlendMode();
